@@ -17,8 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-.section {
+.pic {
   background-color: #fff;
+  position: relative;
 }
 
 .img-flex {
@@ -57,18 +58,18 @@ h2 {
     line-height: 1.4;
   }
 
-  .section {
+  .img-flex {
     position: relative;
-    bottom: 6%;
-    right: 4%;
   }
 
   .info {
     background-color: rgba(0, 0, 0, .3);
-    border-radius: 7px;
+    border-radius: 8px;
     position: absolute;
-    left: 15rem;
-    bottom: 3rem;
+    color: #fff;
+    left: 300px;
+    bottom: 500px;
+    width: 50%;
   }
 
   .img-flex {
@@ -88,6 +89,12 @@ h2 {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .section {
+    position: relative;
+    bottom: 6%;
+    right: 4%;
   }
 
   h1,
